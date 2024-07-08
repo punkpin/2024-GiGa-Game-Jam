@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - rail
+  - ball
+  - roadblock
+  - banana
+  - car
+  - passenger
+  - Cat
   layers:
   - Default
   - TransparentFX
@@ -12,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Static Obstacle
+  - Moving Obstacle
   - 
   - 
   - 
@@ -39,6 +46,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: EndPoint
+    uniqueID: 3560696737
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Stairs
+    uniqueID: 1817896907
+    locked: 0
+  - name: Poster
+    uniqueID: 3208622641
+    locked: 0
+  - name: Player
+    uniqueID: 4162810333
+    locked: 0
+  - name: Obstacles
+    uniqueID: 4146955055
     locked: 0
